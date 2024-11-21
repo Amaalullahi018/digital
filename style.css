@@ -1,0 +1,34 @@
+.digital-clock{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    border-radius: 2rem;
+    user-select: none;
+    padding: 0 2rem;
+    border: 0.5rem solid #2d2d2d;
+     justify-content: center;
+    align-items: center; 
+}
+.week{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    color: #2d2d2d;
+    font-weight: bolder;
+    font-family: "Hack";
+}
+.week .active{
+    color: white;
+}
+.time{
+    font-family: "FX_LED";
+}
+.hour, .min, .dot{
+    display: inline-block;
+    font-size: 13rem;
+}
+.invisible{
+    visibility: hidden;
+}
