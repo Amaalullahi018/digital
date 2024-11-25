@@ -32,3 +32,35 @@
 .invisible{
     visibility: hidden;
 }
+/* Blink Effect for the Dots */
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .week div {
+        font-size: 0.9rem; /* Smaller text for weekdays */
+        padding: 5px;
+    }
+
+    .time div {
+        font-size: 2.5rem; /* Reduce time font size */
+    }
+}
+
+@media (max-width: 480px) {
+    .week div {
+        font-size: 0.8rem; /* Further reduction for small screens */
+    }
+
+    .time div {
+        font-size: 2rem; /* Reduce time font size for very small screens */
+    }
+
+    .digital-clock {
+        padding: 15px; /* Adjust padding */
+    }
+}
